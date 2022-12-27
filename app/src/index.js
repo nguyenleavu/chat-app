@@ -3,8 +3,8 @@ const path = require('path');
 const http = require('http');
 const { Server } = require('socket.io');
 const Filter = require('bad-words');
-const { createMessages } = require('./src/utils/create-message');
-const { getUserList, addUser, removeUser } = require('./src/utils/users');
+const { createMessages } = require('./utils/create-message');
+const { getUserList, addUser, removeUser } = require('./utils/users');
 
 // app
 const app = express();
